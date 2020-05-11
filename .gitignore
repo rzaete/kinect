@@ -1,3 +1,7 @@
+experiments
+libs
+green_screen/build
+
 # Prerequisites
 *.d
 
