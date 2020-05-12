@@ -29,7 +29,7 @@ The C++ module needs to be compiled in order to create a executable file. To do 
  ```
  (Note: you might need to change the paths of OpenCV and Azure Kinect libraries in `CMakeLists.txt` based on your installation)
  
-## A Note on Calibration (only relevant for 2-camera version)
+## A Note on Calibration (from "Green Screen" example in Azure Kinect SDK)
 
 This program relies on transforming the backup camera's depth image into the color camera's space. This transformation requires knowing the transformation between the two cameras. To find that transformation, we must calibrate the cameras.
 This program relies on OpenCV's chessboard calibration functions. As a result, you should have a chessboard pattern to use while calibrating the cameras. If you don't have one, print one out. You can find a 9x6 one
