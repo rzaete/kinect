@@ -7,7 +7,7 @@ The basic steps are:
   2. Capture synchronized frames in unified coordinate system and generate point clouds from them.
   3. Use Open3D library to reconstruct meshes from point coulds using either Ball Pivoting or Poisson algorithm.
 
-## Project Architecture
+## Code Structure
 
 This project consists of two modules. 
   - First module is a C++ program for working with Azure kinect devices, capturing frames and generating and saving point clouds to disk.
