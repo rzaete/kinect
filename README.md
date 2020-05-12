@@ -52,3 +52,7 @@ The rest of the options aren't required. Run the example with no argument for de
 - If you're having weird runtime errors, sometimes disconnecting and reconnecting the cameras can help.
 
 - The range of the depth camera is limited and depends on the depth mode. You may need to change the depth mode depending on how far you need to have your cutoff. See [here](https://docs.microsoft.com/en-us/azure/Kinect-dk/hardware-specification) for the specs.
+
+## Refrences
+
+[Green Screen example in Azure Kinect SDK](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/tree/develop/examples/green_screen)
