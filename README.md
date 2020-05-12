@@ -43,11 +43,14 @@ Also, DO NOT move the cameras during or after calibration! Changing that transla
 
 ## Running the program
 
-Run the `camera_service.exe` executable in the `build` folder with no arguments for usage details and defaults, and then fill in any customizations you might need.
+To start cameras, run the `camera_service.exe` executable in the `camera_service/build` folder with no arguments for usage details and defaults, and then fill in any customizations you might need.
 
 The first option is the number of cameras you need. The next three options are for the calibration (if you use our recommended board, you want those to be 9, 6, and (length of an individual calibration square side, in millimeters). If you're only using a single camera, those numbers don't matter, although for validation they should be nonzero. 1 1 1 should be fine.
 
 The rest of the options aren't required. Run the example with no argument for details. In particular, you can change the cutoff threshold distance.
+
+To process the saved point clouds and reconstruct environment, run `main.py` in the `environment_builder` folder with following commad:
+`python main.py`
 
 ## Potential reasons for failure
 
