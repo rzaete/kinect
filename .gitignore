@@ -1,6 +1,6 @@
 experiments
 libs
-green_screen/build
+camera_service/build
 
 # Prerequisites
 *.d
