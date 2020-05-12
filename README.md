@@ -2,6 +2,8 @@
 
 The goal of this project is to reconstruct a 3D environment using two or more Azure Kinect devices and then use that environment to train an agent using reinforcement learning algorithms.
 
+![](demo.gif)
+
 The basic steps are:
   1. Calibrate devices so we can have a unified coordinate system.
   2. Capture synchronized frames in unified coordinate system and generate point clouds from them.
